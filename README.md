@@ -1,4 +1,4 @@
-# Useful GIT aliases for Web Developers
+# Useful GIT config for Web Developers
 
 
     [alias]
@@ -22,16 +22,3 @@
     	helper = store
     [push]
     	default = current
-    [difftool]
-    	prompt = true
-    [difftool "vsdiffmerge"]
-    	cmd = \"G:\\ProgramFiles\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
-    	keepBackup = false
-    [merge]
-    	tool = vsdiffmerge
-    [mergetool]
-    	prompt = true
-    [mergetool "vsdiffmerge"]
-    	cmd = \"G:\\ProgramFiles\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
-    	keepBackup = false
-    	trustExitCode = true
