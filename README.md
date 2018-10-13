@@ -18,7 +18,5 @@
     [user]
     	name = Francisco de Azevedo
     	email = francisco.de.azevedo@accenture.com
-    [credential]
-    	helper = store
     [push]
     	default = current
